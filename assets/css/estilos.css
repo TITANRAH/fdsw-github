@@ -11,15 +11,16 @@ body {
   background-position: top;
 }
 
-#Hero-Section h1{
+#Hero-Section h1, p{
 
   color: black;
+  font-weight: 900;
 }
 
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
-  height: 250px;
+  height: 30vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -38,6 +39,10 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  .image-top{
+    height: 30vw;
+  }
   #Contacto form label {
     font-weight: 400;
   }
