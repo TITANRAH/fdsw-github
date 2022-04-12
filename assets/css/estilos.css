@@ -32,6 +32,11 @@ body {
   color: #373a3c;
 }
 
+.logo{
+  text-align: left;
+  max-width: 5em;
+}
+
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
